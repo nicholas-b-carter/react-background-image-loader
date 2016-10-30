@@ -2,6 +2,9 @@
 .DS_Store
 .npmignore
 .npmrc
+
+# exclude webstorm
+.idea
 # exclude all node_modules
 node_modules/
 

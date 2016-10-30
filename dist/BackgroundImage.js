@@ -104,7 +104,7 @@ var BackgroundLoader = (function (_React$Component) {
       var _props = this.props;
       var src = _props.src;
       var placeholder = _props.placeholder;
-      var children = _props.children;
+      var children = _props.children || (<img className="loading"/>);
 
       var props = _objectWithoutProperties(_props, ['src', 'placeholder', 'children']);
 
